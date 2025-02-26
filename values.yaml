@@ -1,0 +1,7 @@
+deployment:
+  name: sample-app
+  image: nginx
+containers:
+  name: my-app
+replicasSet: 2
+
